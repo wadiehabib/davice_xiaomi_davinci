@@ -32,6 +32,9 @@ ro.lmk.kill_timeout_ms = 100
 ro.lmk.use_minfree_levels = true
 ro.lmk.log_stats = true
 
+# IO Prefetcher
+vendor.iop.enable_uxe=1
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.enable-aac=true
