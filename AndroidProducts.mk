@@ -13,4 +13,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_davinci.mk
+    $(LOCAL_DIR)/ancient_davinci.mk
+
+COMMON_LUNCH_CHOICES := \
+    ancient_davinci-userdebug
