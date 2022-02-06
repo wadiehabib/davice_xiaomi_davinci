@@ -1,0 +1,40 @@
+[
+   {
+   "remote"       : "github",
+   "repository"   : "wadiehabib/vendor_xiaomi_raphael",
+   "target_path"  : "vendor/xiaomi/davinci",
+   "branch"       : "davinci2"
+   },
+   {
+   "remote"       : "github",
+   "repository"   : "vantoman/kernel_xiaomi_sm6150",
+   "target_path"  : "kernel/xiaomi/sm6150",
+   "branch"       : "12",
+   "clone-depth"  : "1"
+   },
+   {
+   "remote"       : "github",
+   "repository"   : "kdrag0n/proton-clang",
+   "target_path"  : "prebuilts/clang/host/linux-x86/clang-proton",
+   "branch"       : "master",
+   "clone-depth"  : "1"
+   },
+   {
+   "remote"       :"github",
+   "repository"   :"ArrowOS/android_hardware_qcom_audio",
+   "target_path"  :"hardware/qcom-caf/sm8150/audio",
+   "branch"       :"arrow-12.0-caf-sm8150"
+   },
+   {
+   "remote"       :"github",
+   "repository"   :"ArrowOS/android_hardware_qcom_media",
+   "target_path"  :"hardware/qcom-caf/sm8150/media",
+   "branch"       :"arrow-12.0-caf-sm8150"
+   },
+   {
+   "remote"       : "github",
+   "repository"   : "ArrowOS/android_hardware_qcom_display",
+   "target_path"  : "hardware/qcom-caf/sm8150/display",
+   "branch"       : "arrow-12.0-caf-sm8150"
+   }
+]
