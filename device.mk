@@ -240,7 +240,7 @@ PRODUCT_HOST_PACKAGES += \
     signapk
 
 # IFAA manager
-include vendor/xiaomi/sdm845-common-extra/ifaa.mk
+include vendor/xiaomi/davinci-extra/ifaa.mk
 
 # Init
 PRODUCT_PACKAGES += \
