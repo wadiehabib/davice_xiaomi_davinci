@@ -13,10 +13,16 @@
    },
    {
    "remote"       : "github",
-   "repository"   : "vantoman/kernel_xiaomi_sm6150",
-   "target_path"  : "kernel/xiaomi/sm6150",
-   "branch"       : "12",
+   "repository"   : "trpsl/davinci-kernel",
+   "target_path"  : "kernel/xiaomi/davinci",
+   "branch"       : "twelve",
    "clone-depth"  : "1"
+   },
+   {
+   "remote"       : "github",
+   "repository"   : "wadiehabib/kernel_xiaomi_raphael",
+   "target_path"  : "kernel/xiaomi/davinci-headers",
+   "branch"       : "davinci-headers"
    },
    {
    "remote"       :"github",
