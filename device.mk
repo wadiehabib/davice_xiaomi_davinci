@@ -358,6 +358,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor
 
+# Preopt System Apps
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI \
+    Settings \
+    Lawnchair
+
 # Power
 PRODUCT_PACKAGES += \
      android.hardware.power-service.davinci-libperfmgr
